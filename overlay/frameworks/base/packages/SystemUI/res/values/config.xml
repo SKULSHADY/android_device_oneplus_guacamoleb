@@ -16,12 +16,6 @@
 */
 -->
 <resources>
-    <dimen name="rounded_corner_content_padding">18dp</dimen>
-    <dimen name="system_icons_keyguard_padding_end">2.0dp</dimen>
-
-    <!-- Custom cutout overlay view sizes -->
-    <dimen name="config_customCutoutTopWidth">240.0px</dimen>
-    <dimen name="config_customCutoutTopHeight">240.0px</dimen>
-    <dimen name="config_customCutoutBottomWidth">240.0px</dimen>
-    <dimen name="config_customCutoutBottomHeight">240.0px</dimen>
+    <!-- Allow device to use unordinary cutout overlays -->
+    <bool name="config_customCutout">true</bool>
 </resources>
